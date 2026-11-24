@@ -15,7 +15,8 @@ int main()
         string whether;
 
         // 内层循环控制一局游戏
-        while (1) {
+        while (1)
+        {
             cout << "请输入猜的数字：" << endl;
             cin >> b;
             count++;
